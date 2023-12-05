@@ -1,0 +1,5 @@
+Tôi viết code này trên Visual Studio Code
+Khi bạn down file về muốn dùng thì mở settings(ctrl + ,)
+Chọn chỉnh sưa file json (nằm bên gốc bên trái cái file có mũi tên)
+Tìm dòng "cpp" thay $fileName thành *.cpp
+Nhớ nhấn save lại là xong 
