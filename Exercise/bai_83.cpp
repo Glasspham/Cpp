@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include<array>
+
 using namespace std;
 // S(n) = 1 + (1.2)!/2 + (1.2.3)!/3 + ... + (1.2.3...n)!/n
 int Nhap() 
