@@ -29,18 +29,15 @@ int main()
 {
     int select;
     cout << "Ban can chuyen gi: " << endl;
-    cout << "1. Tu DEC sang BIN." << endl;
-    cout << "2. Tu DEC sang OCT." << endl;
-    cout << "3. Tu DEC sang HEX." << endl;
-
-    cout << "4. Tu BIN sang DEC." << endl;
-    cout << "5. Tu BIN sang OCT." << endl;
-    cout << "6. Tu BIN sang HEX." << endl;
-
-    cout << "7. Tu OCT sang DEC." << endl;
-    cout << "8. Tu OCT sang BIN." << endl;
-    cout << "9. Tu OCT sang HEX." << endl;
-
+    cout << " 1. Tu DEC sang BIN." << endl;
+    cout << " 2. Tu DEC sang OCT." << endl;
+    cout << " 3. Tu DEC sang HEX." << endl;
+    cout << " 4. Tu BIN sang DEC." << endl;
+    cout << " 5. Tu BIN sang OCT." << endl;
+    cout << " 6. Tu BIN sang HEX." << endl;
+    cout << " 7. Tu OCT sang DEC." << endl;
+    cout << " 8. Tu OCT sang BIN." << endl;
+    cout << " 9. Tu OCT sang HEX." << endl;
     cout << "10. Tu HEX sang DEC." << endl;
     cout << "11. Tu HEX sang BIN." << endl;
     cout << "12. Tu HEX sang OCT." << endl;
