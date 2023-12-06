@@ -13,8 +13,6 @@ int Nhap()
     return n;
 }
 
-#if 1 // Các function toán học dùng vòng lặp For()
-
 long tinhTichLe(int &n) // bai 17
 {
     int accumulation(1);
@@ -187,74 +185,3 @@ long double tinhTong_83(int &n) // bai 83
     }
     return s;
 }
-
-#endif
-
-#if 0 // Các function toán học dùng Đệ Quy
-
-long tinhTich(int &n) // bai 17
-{
-    
-}
-
-long tinhTong(int &n) // bai 18
-{
-    
-}
-
-long tinhLeduongChanam(int &n) // bai 19
-{
-    
-}
-
-long tinhTichLap(int &n) // bai 20
-{
-   
-}
-
-long tinhTongBinhPhuong(int &n) // bai 21
-{
-    
-}
-
-long tinh(int &n) // bai 22
-{
-
-}
-
-// long tinh(int &n) // bai 23
-// {
-
-// }
-
-// long tinh(int &n) // bai 24
-// {
-
-// }
-
-// long tinh(int &n) // bai 25
-// {
-
-// }
-
-// long tinh(int &n) // bai 26
-// {
-
-// }
-
-// long tinh(int &n) // bai 27
-// {
-
-// }
-
-// long tinh(int &n) // bai 28
-// {
-
-// }
-
-// long tinh(int &n) // bai 29
-// {
-
-// }
-
-#endif
