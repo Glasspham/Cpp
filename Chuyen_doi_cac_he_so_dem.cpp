@@ -129,7 +129,7 @@ int main()
         cin >> binaryNumber;
 
         int decimalNumber = bitset<8>(binaryNumber).to_ulong();
-        cout << "He co so 16 tuong ung cua " << binaryNumber << " la " << uppercase <<hex << decimalNumber << endl;
+        cout << "He co so 16 tuong ung cua " << binaryNumber << " la " << uppercase << hex << decimalNumber << endl;
     }
 
     else if(select == 7)
