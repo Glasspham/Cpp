@@ -20,7 +20,7 @@ int main()
     cout << endl;
 
     int index;
-    int max = a[0];
+    int max = a[1];
     for(int i = 1; i <= nSize; i++)
     {
         if(a[i] > max)
