@@ -239,6 +239,7 @@ int main()
     gotoxy(10,12); textcolor(2); printf("    và mong 1 lúc nào đó có thể chấp nhận tôi");
     gotoxy(10,14); textcolor(2); printf("       tồi biết điều đó không thể nhưng mong đều đó thành sự thật! ☆*: .｡. o(≧▽≦)o .｡.:*☆");
     Sleep(4000);
+    
     system("cls");
     SetConsoleOutputCP(437);
 
