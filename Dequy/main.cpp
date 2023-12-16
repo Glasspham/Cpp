@@ -40,7 +40,7 @@ int main()
 
     #if 1 // Đệ quy
     int n;
-    cout << "Nhap vao chi dai day fibonacci: ";
+    cout << "Nhap vao chieu dai day fibonacci: ";
     cin >> n;
     for(int i = 1; i <= n; i++)
     {
