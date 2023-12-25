@@ -49,7 +49,7 @@ void Medium(int a[], int n)
 
 int main()
 {
-    int n = 3;
+    int n;
     cout << "Nhap chieu cua mang: "; cin >> n;
     int a[n];
 
