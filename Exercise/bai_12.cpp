@@ -6,15 +6,15 @@ bool ktsnt(int n)
 {
     if(n < 2)
         return false;
-    #if 0 // Xét nếu số n chia cho tất cả số thuộc [2; n-1] mà != 0 thì là số nguyên tố và ngược lại == 0 thì không là số nguyên tố
-    for(int i = 2; i < n - 1; i++)
+    #if 0 // Xét nếu số n chia cho tất cả số thuộc [2; n] mà != 0 thì là số nguyên tố và ngược lại == 0 thì không là số nguyên tố
+    for(int i = 2; i < n; i++)
         if(n % i == 0)
             return false;
     #endif
 
     #if 1 // Xét nếu số n chia cho tất cả số thuộc [2; n/2] mà != 0 thì là số nguyên tố và ngược lại == 0 thì không là số nguyên tố
     for(int i = 2; i < n / 2; i++)
-        if(n / i == 0)
+        if(n % i == 0)
             return false;
     #endif
     
