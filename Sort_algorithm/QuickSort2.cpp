@@ -13,6 +13,7 @@ int partition(int a[], int l, int r)
             a[i] = a[j];
             a[j] = tmp;
         }
+  
     j++;
     int tmp = a[r];
     a[r] = a[j];
