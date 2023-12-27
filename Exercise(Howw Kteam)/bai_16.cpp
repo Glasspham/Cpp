@@ -13,7 +13,7 @@ int main()
     int n;
     do
     {
-        cout << "Nhap so nguyen ban muon tinh giai thua (n > 0): ";
+        cout << "Nhap so nguyen ban muon tinh giai thua (n >= 0): ";
         cin >> n;
         if(n < 0)
             cout << "Ban da nhap sai!";
