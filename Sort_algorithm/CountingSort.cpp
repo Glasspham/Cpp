@@ -12,16 +12,11 @@ void countingSort(int a[], int n)
         cnt[a[i]]++;
         k = max(k, a[i]);
     }
+  
     for(int i = 0; i <= k; i++)
-    {
         if(cnt[i])
-        {
             for(int j = 0; j < cnt[i]; j++)
-            {
                 cout << i << ' ';
-            }
-        }
-    }
 }
 
 int main()  
