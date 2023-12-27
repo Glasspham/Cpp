@@ -20,10 +20,8 @@ void straightexchangeSort(int a[], int n)
 int main()
 {
     int a[] = {10, 5, 1, 6, 2, 7, 8, 3, 4, 9};
-    int n = sizeof(a)/sizeof(a[0]);
+    int n = sizeof(a) / sizeof(a[0]);
     straightexchangeSort(a, n);
     for(int i = 0; i < n; i++)
-    {
         cout << a[i] << ' ';
-    }
 }
