@@ -30,12 +30,14 @@ void merge(int a[], int l, int m, int r)
             ++j;
         }
     }
+  
     while (i < n1)
     {
         a[l] = x[i];
             ++l;
             ++i;
     }
+  
     while (j < n2)
     {
         a[l] = y[j];
@@ -61,6 +63,5 @@ int main()
     int n = sizeof(a) / sizeof(a[0]);  
     mergeSort(a, 0, 9);  
     for(int i = 0; i < n; i++)
-        cout << a[i] << ' ';
-       
+        cout << a[i] << ' ';    
 }  
