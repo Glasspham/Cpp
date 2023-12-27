@@ -10,9 +10,11 @@ int partition(int a[], int l, int r)
         do
             ++i;
         while (a[i] < pivot);
+      
         do
             --j;
         while (a[j] > pivot);
+      
         if(i < j)
             swap(a[i], a[j]);
         else
@@ -33,7 +35,7 @@ void quickSort(int a[], int l, int r)
 int main()  
 {  
     int a[] = {10, 5, 1, 6, 2, 7, 8, 3, 4, 9};  
-    int n = sizeof(a)/sizeof(a[0]);  
+    int n = sizeof(a) / sizeof(a[0]);  
     quickSort(a, 0, 9);  
     for(int i = 0; i < n; i++)
     {
