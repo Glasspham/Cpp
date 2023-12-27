@@ -5,6 +5,7 @@ using namespace std;
 int partition(int a[], int l, int r)  
 {  
     int j = l - 1, pivot = a[r];
+  
     for(int i = l; i < r; i++)
         if(a[i] <= pivot)
         {
@@ -13,8 +14,8 @@ int partition(int a[], int l, int r)
             a[i] = a[j];
             a[j] = tmp;
         }
-  
     j++;
+  
     int tmp = a[r];
     a[r] = a[j];
     a[j] = tmp;
