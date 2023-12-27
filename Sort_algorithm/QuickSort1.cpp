@@ -38,7 +38,5 @@ int main()
     int n = sizeof(a) / sizeof(a[0]);  
     quickSort(a, 0, 9);  
     for(int i = 0; i < n; i++)
-    {
-        cout << a[i] << ' ';
-    }  
+        cout << a[i] << ' '; 
 }  
