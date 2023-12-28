@@ -8,7 +8,7 @@ typedef struct Node
     Node* right;
 } node_t;
 
-void Free(node_t* root )
+void Free(node_t* root)
 {
     if(root == NULL)
         return;
