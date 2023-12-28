@@ -17,13 +17,4 @@ int palin(int a[], int l, int r);
 int sumarray(int a[], int n);
 int power(int base, int exponent);
 
-struct Node 
-{
-int data;
-Node* left;
-Node* right;
-};
-
-
-
 #endif
