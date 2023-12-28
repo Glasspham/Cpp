@@ -64,7 +64,7 @@ int main()
     cout << "Tong cua tat ca gia tri trong mang: " << sum << endl;
     #endif
 
-    #if 1 // Tính số mũ 
+    #if 0 // Tính số mũ 
     int base;
     cout << "Nhap vao co so:";
     cin >> base;
