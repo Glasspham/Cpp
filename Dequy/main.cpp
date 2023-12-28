@@ -38,14 +38,42 @@ int main()
         cout<<"Gia tri cua P("<<n<<","<<k<<") la: " << chinhhop(n,k) << '\n'; 
     #endif
 
-    #if 1 // Đệ quy
+    #if 0 // Đệ quy
     int n;
     cout << "Nhap vao chieu dai day fibonacci: ";
     cin >> n;
     for(int i = 1; i <= n; i++)
-    {
         cout << fibonacci(i) << ' ';
-    }
+    #endif
+
+    #if 0 // Tổng các giá trị trong mảng
+    int n;
+    cout << "Nhap vao chieu dai mang:";
+    cin >> n;
+    int a[n];
+
+    srand(time(NULL));
+    for(int i = 0; i < n; i++)
+        a[i] = rand() % 100;
+
+    for(int i : a)
+        cout << i << ' ';
+    cout << endl;
+
+    int sum = sumarray(a, n - 1);
+    cout << "Tong cua tat ca gia tri trong mang: " << sum << endl;
+    #endif
+
+    #if 1 // Tính số mũ 
+    int base;
+    cout << "Nhap vao co so:";
+    cin >> base;
+    
+    int exponent;
+    cout << "Nhap vao so mu";
+    cin >> exponent;
+
+    cout << "Ket qua la: " << power(base, exponent) << endl;
     #endif
 
     return 0;

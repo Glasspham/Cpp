@@ -1,7 +1,8 @@
 #ifndef _MATH_
 #define  _MATH_
 
-#include <iostream>
+#include<iostream>
+#include<time.h>
 using namespace std;
 
 int giathua(int n);
@@ -13,5 +14,16 @@ int GCD(int a, int b);
 int luythua(int a, int b);
 int count(int n);
 int palin(int a[], int l, int r);
+int sumarray(int a[], int n);
+int power(int base, int exponent);
+
+struct Node 
+{
+int data;
+Node* left;
+Node* right;
+};
+
+
 
 #endif

@@ -69,3 +69,20 @@ int palin(int a[], int l, int r) // Xem mảng có xứng hay không vd array[5]
         return 0;
     return palin(a, l + 1, r - 1);
 }
+
+int sumarray(int a[], int n) // Tổng các giá trị trong mảng
+{
+    if(n < 0)
+        return 0;
+    else
+        return a[n] + sumarray(a, n - 1);
+}
+
+int power(int base, int exponent) // Tính số mũ
+{
+    if(exponent == 0)
+        return 1;
+    else
+        return base * power(base, exponent - 1);
+}
+
