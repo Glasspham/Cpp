@@ -20,6 +20,8 @@ Output:
 2+3+4
 1+2+3+4
 */
+
+// Cách 11
 #include <iostream>
 #include <vector>
 
@@ -71,4 +73,72 @@ int main() {
     printCombinations(numbers);
 
     return 0;
+}
+
+
+// Cách 2
+#include <stdio.h>
+void sinhth(int a[], int data[], int st, int e, int index, int r) 
+{
+    if (index == r) 
+    {
+        for (int i = 0; i < r; i++) 
+        {
+            printf("%d", data[i]);
+            if (i < r - 1)
+                printf("+");
+        }
+        printf("\n");
+        return;
+    }
+
+    for (int i = st; i <= e && e - i + 1 >= r - index; i++) 
+    {
+        data[index] = a[i];
+        sinhth(a, data, i + 1, e, index + 1, r);
+    }
+}
+
+void inth(int a[], int n) 
+{
+    for (int r = 1; r <= n; r++) 
+    {
+        int data[r];
+        sinhth(a, data, 0, n - 1, 0, r);
+    }
+}
+
+int main() 
+{
+    int n;
+    scanf("%d", &n);
+    int a[n];
+    for (int i = 0; i < n; i++)
+    scanf("%d", &a[i]);
+    inth(a, n);
+    return 0;
+}
+
+
+// Cách 3
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n; cin >> n;
+    int a,b,c,d; cin >> a >> b >> c >> d;
+
+    cout << a << '\n' << b << '\n' << c << '\n' << d << '\n';
+
+    for(int i = a; i < d; i++)
+        for(int j = i + 1; j <= d; j++)
+            cout << i << '+' << j << endl;
+
+    for(int i = a; i < c; i++)
+        for(int j = i + 1; j <= c; j++)
+            for(int m = j + 1; m <= d; m++)
+                cout << i << '+' << j << '+' << m << endl;
+
+    cout << a << '+' << b << '+' << c << '+' << d << endl;;
 }
