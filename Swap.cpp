@@ -39,15 +39,17 @@ int main()
     Swap_Temp(a,b);
     cout << a << ' ' << b << endl;
 
-    cout << "Sum:" << endl;
+    cout << "Add and Subtract:" << endl;
     Sawp_Add_Subtract(a,b);
     cout << a << ' ' << b << endl;
 
-    cout << "Multiplication and Division:" << endl;
+    cout << "Multiply and Divide:" << endl;
     Swap_Multiply_Divide(a,b);
     cout << a << ' ' << b << endl;
 
     cout << "XOR:" << endl;
     Swap_XOR(a,b);
     cout << a << ' ' << b << endl;
+
+    return 0;
 }
