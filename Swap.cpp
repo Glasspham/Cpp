@@ -8,7 +8,7 @@ void Swap_Temp(int &a, int &b)
     b = temp;
 }
 
-void Sawp_Sum(int &a, int &b)
+void Sawp_Sum_Subtract(int &a, int &b)
 {
     a += b;
     b = a - b;
@@ -40,7 +40,7 @@ int main()
     cout << a << ' ' << b << endl;
 
     cout << "Sum:" << endl;
-    Sawp_Sum(a,b);
+    Sawp_Sum_Subtract(a,b);
     cout << a << ' ' << b << endl;
 
     cout << "Multiplication and Division:" << endl;
