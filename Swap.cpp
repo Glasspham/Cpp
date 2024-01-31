@@ -8,14 +8,14 @@ void Swap_Temp(int &a, int &b)
     b = temp;
 }
 
-void Sawp_Sum_Subtract(int &a, int &b)
+void Sawp_Add_Subtract(int &a, int &b)
 {
     a += b;
     b = a - b;
     a = a - b;
 }
 
-void Swap_Multiplication_Division(int &a, int &b)
+void Swap_Multiply_Divide(int &a, int &b)
 {
     a *= b;
     b = a / b;
@@ -40,11 +40,11 @@ int main()
     cout << a << ' ' << b << endl;
 
     cout << "Sum:" << endl;
-    Sawp_Sum_Subtract(a,b);
+    Sawp_Add_Subtract(a,b);
     cout << a << ' ' << b << endl;
 
     cout << "Multiplication and Division:" << endl;
-    Swap_Multiplication_Division(a,b);
+    Swap_Multiply_Divide(a,b);
     cout << a << ' ' << b << endl;
 
     cout << "XOR:" << endl;
