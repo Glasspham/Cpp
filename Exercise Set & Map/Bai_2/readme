@@ -1,0 +1,22 @@
+Bài 2. Sử dụng cả set và map
+Cho một mảng số nguyên gồm n phần tử, với mỗi truy vấn hãy kiểm tra xem một
+số nào đó có nằm trong mảng hay không ?
+Input
+Dòng đầu tiên là số lượng test case T. (1≤T≤100).
+Mỗi test case bao gồm nhiều dòng, dòng đầu tiên là số lượng phần tử trong mảng.
+(1≤n≤1000).
+Dòng thứ 2 bao gồm n phần tử trong mảng. (-10^9<ai≤10^9).
+Dòng thứ 3 là số lượng truy vấn q .
+Q dòng tiếp theo mỗi dòng là một số nguyên cần kiểm tra
+Output
+In ra YES nếu số cần kiểm tra xuất hiện trong mảng, ngược lại in NO
+Ví dụ
+Input           Output
+1               YES
+6               YES
+1 2 3 8 7 0     NO
+4               NO
+1
+2
+10
+20

@@ -1,0 +1,18 @@
+Bài 3:  Sử dụng cả set và map
+Cho 2 mảng số nguyên, hãy đếm những phần tử thuộc mảng thứ nhất mà không
+thuộc mảng thứ 2.
+Input
+Dòng đầu tiên là số lượng test case T. (1 ≤ T ≤ 100).
+Mỗi test case gồm 3 dòng, dòng đầu tiên là số lượng phần tử của mảng thứ nhất và
+mảng thứ hai. (1 ≤ n,m ≤ 1000).
+Dòng thứ 2 là các số thuộc mảng thứ 1. (-10^9 ≤ ai ≤ 10^9)
+Dòng thứ 3 là các số thuộc mảng thứ 2. (-10^9 ≤ ai ≤ 10^9)
+Output
+Liệt kê các số thuộc mảng thứ 1 mà không thuộc mảng thứ 2, theo thứ tự xuất hiện,
+nếu không tồn tại số nào in ra "NOT FOUND".
+Ví dụ
+Input       Output
+1           1
+4 5
+1 2 2 9
+2 0 9 8 3

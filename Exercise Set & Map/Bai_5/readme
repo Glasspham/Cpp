@@ -1,0 +1,12 @@
+Bài 5. Tìm kí tự xuất hiện nhiều nhất trong chuỗi.
+Sử dụng mảng đếm và sử dụng map
+Input
+Dòng đầu tiên là số lượng test case T . (1≤T≤100).
+Mỗi test case gồm một dòng là 1 chuỗi có không quá 100000 kí tự, bao gồm cả dấu
+cách.
+Output
+Tìm kí tự có số lần xuất hiện nhiều nhất và có thứ tự từ điển nhỏ nhất
+Ví dụ
+Input               Output
+1                   z
+abcdzzzzu abcd

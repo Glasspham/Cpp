@@ -1,0 +1,12 @@
+Bài 9. Từ lặp đầu tiên
+Tìm từ được lặp lại đầu tiên trong câu.
+Input
+Dòng đầu tiên là số lượng bộ test (1 ≤ T ≤ 100).
+T dòng tiếp theo mỗi dòng chứa một chuỗi đầu vào.
+Output
+Từ đầu tiên được lặp lại, dữ liệu đảm bảo câu có 2 từ trở lên vào có xuất hiện từ
+được lặp lại.
+Input                       Output
+2
+abc abc abc zzz zzz cd      abc
+ngon ngu lap lap ngu ngon   lap

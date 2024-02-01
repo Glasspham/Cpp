@@ -1,0 +1,14 @@
+Bài 7. Đếm số lượng từ khác nhau trong câu
+Input
+Dòng đầu tiên là số lượng test case T.(1≤T≤100).
+Mỗi dòng là một xâu bao gồm cả khoảng trắng có không quá 10000 kí tự
+Output
+In ra số lượng từ khác nhau trong câu
+Ví dụ
+Input
+2
+Python C++ java php Python python
+Andrew neiman heisenberg neiman
+Output
+5
+3

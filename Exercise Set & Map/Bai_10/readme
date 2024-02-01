@@ -1,0 +1,29 @@
+Bài 10. Đặt tên người dùng
+Xây dựng chương trình đặt tên tài khoản người dùng. Nếu tên người dùng muốn đặt
+đã xuất hiện trong hệ thống thì sẽ đặt tên tài khoản theo cú pháp "tên người dùng
+muốn đặt" + số tài khoản cùng tên trong hệ thống cộng thêm 1.
+Ví dụ: Giả sử trong hệ thống đã tồn tại tên người dùng rech thì người dùng tiếp
+theo muốn sử dụng tên tài khoản là rech sẽ được lưu ở hệ thống với tên rech1,
+tương tự như vậy trong trường hợp có 2 tài khoản tên rech trong hệ thống thì người
+dùng có tên rech sẽ được lưu với tên rech2.
+Input
+Dòng đầu tiên là n số lượng tên người dùng muốn cài đặt vào hệ thống, n dòng tiếp
+theo sẽ là tên người đng, tên người dùng chỉ bao gồm 1 từ duy nhất
+Ouput
+In kết quả là tên người dùng được lưu trong hệ thống.
+Input           Ouput
+14
+an              an
+binh            binh
+an              an1
+binh            binh1
+long            long
+huong           huong
+ngoc            ngoc
+thuan           thuan
+nhung           nhung
+nhung           nhung1
+ngoc thuan      ngoc thuan
+nhung           nhung2
+nhung           nhung3
+nhung           nhung4

@@ -1,0 +1,12 @@
+Bài 8.
+Tìm từ có số lần xuất hiện nhiều nhất trong chuỗi, trường hợp các từ có số lần xuất
+hiện giống nhau từ có thứ tự từ điển nhỏ hơn sẽ là kết quả.
+Input
+Dòng đầu tiên là số lượng test case T. (1≤T≤100).
+Mỗi dòng là một xâu bao gồm cả khoảng trắng có không quá 10000 kí tự
+Output
+In ra từ có số lần xuất hiện nhiều nhất và có thứ tự từ điển nhỏ nhất
+Ví dụ
+Input                                   Output
+1                                       
+ngon ngu lap trinh ngon ngu             ngon

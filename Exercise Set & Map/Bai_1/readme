@@ -1,0 +1,16 @@
+Bài 1. Sử dụng cả set và map.
+Đếm số lượng phần tử khác nhau trong mảng số nguyên
+Input
+Dòng đầu tiên là số lượng test case T . (1≤T≤100).
+Mỗi test case bao gồm 2 dòng, dòng đầu tiên là số lượng phần tử trong mảng.
+(1≤n≤1000).
+Dòng thứ 2 bao gồm n phần tử trong mảng. (-10<ai≤109).
+Output
+In ra số lượng phần tử khác nhau trong mảng.
+Ví dụ
+Input           Output
+2
+5
+1 2 2 2 1       2
+4
+1 2 3 4        4
