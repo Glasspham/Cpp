@@ -22,18 +22,15 @@ bool Binary_search(int a[], int n, int x)
 bool Binary_search(int a[], int l, int r, int x)
 {
     sort(a, a + r + 1);
-    while (l < r)
-    {
-        if(l > r)
-            return false;
-        int mid = (l + r) / 2;
-        if(a[mid] == x)
-            return true;
-        else if(a[mid] < x)
-            return Binary_search(a, mid + 1, r, x);
-        else
-            return Binary_search(a, l, mid - 1, x);
-    }
+    if(l > r)
+        return false;
+    int mid = (l + r) / 2;
+    if(a[mid] == x)
+        return true;
+    else if(a[mid] < x)
+        return Binary_search(a, mid + 1, r, x);
+    else
+        return Binary_search(a, l, mid - 1, x);
 }
 
 int main()
