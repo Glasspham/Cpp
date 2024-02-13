@@ -68,7 +68,7 @@ int main()
         cout << "Not found \n";
     #endif
 
-    #if 0 // Using function cursion
+    #if 0 // Using function rerecursion
     if(Binary_search(a, 0, n - 1, x))
         cout << "Found \n";
     else
