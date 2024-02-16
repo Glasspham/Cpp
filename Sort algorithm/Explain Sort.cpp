@@ -2,6 +2,16 @@
 using namespace std;
 
 /*
+Hướng dẫn và giải thích bới 28Tech 
+Trong phần "ngôn ngữ lập trình C++" video #19.1 -> #19.5
+#19.1 "https://youtu.be/FllEXZV1Z58?si=cfFpdvojXT3_i0ON"
+#19.2 "https://youtu.be/hTHO1Mprj8g?si=NkH1JEb4svosstnC"
+#19.3 "https://youtu.be/XFI96Z7i3LE?si=HT0DJgnFCG8eQ-Ql"
+#19.4 "https://youtu.be/eT9Epyf0XLM?si=W3wGv7oYDr_ERoHp"
+#19.5 "https://youtu.be/v7KL3b2-Zlo?si=sLJBZfPBZlvx1Nf5"
+*/
+
+/*
 Ở mỗi bước của thuật toán luôn đưa phần tử nhỏ nhất(lớn nhất) đưa về đầu dãy.
 Để sắp xếp dãy có n phần tử cần thực hiện n - 1 bước.
 */
