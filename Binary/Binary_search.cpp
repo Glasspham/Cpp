@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+Nội dung từ 28Tech trong phần "ngôn ngữ lập trình C++" video #18
+Link video bài giảng: https://youtu.be/dB2DWSKGLj8?si=kBFlEqvd8Mfd-ywt
+*/
+
 #if 0 // Search Binary: là mảng đã được sắp xếp tăng or giảm dần
 bool Binary_search(int a[], int n, int x)
 {
