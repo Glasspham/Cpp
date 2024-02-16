@@ -1,0 +1,6 @@
+Bài 1:
+Tính tổ hợp chập k của n (0 <= k,n <= 1000)
+Kết quả lấy dư với 10e9 + 7
+Bài 2:
+Tính tổ hợp chập k của n (0 <= k,n <= 10e6)
+Kết quả lấy dư với 10e9 + 7

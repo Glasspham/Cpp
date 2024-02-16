@@ -1,0 +1,11 @@
+Bài 6. Đếm số lượng ước của 1 số nguyên dương n.
+Input
+Dòng đầu tiên là số lượng test case T(1 ≤ n ≤ 100).
+T dòng tiếp theo mỗi dòng là 1 số nguyên dương n (1 ≤ n ≤ 10^9)
+Output
+Mỗi test case in ra trên 1 dòng.
+Ví dụ
+Input       Output
+2
+10          4
+28          6

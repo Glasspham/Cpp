@@ -1,0 +1,14 @@
+Bài 8. Phi hàm Euler.
+Đếm số lượng các số nguyên tố cùng nhau với n không vượt quá n.
+Input
+Số nguyên duy nhất n (1 ≤ n ≤ 10^16).
+Output
+Kết quả của bài toán.
+Ví dụ
+Đếm số lượng các số nguyên tố cùng nhau với n không vượt quá n.
+Input
+Số nguyên duy nhất n (1 ≤ n ≤ 10^16).
+Output
+Input                   Output
+9                       6
+10000000000000000       4000000000000000

@@ -1,0 +1,10 @@
+Nghịch đảo modul (Modular Inverse)
+Link thuật toán: "https://cp-algorithms.com/algebra/module-inverse.html"
+Tóm tắt thuật toán:
+Giải quyết vần đề còn lại của thuật toán mod(%):
+a / b mod m = a * pow(b, -1) mod m = (a mod m * pow(b, -1) mod m) mod m
+thì bài toán này sẽ tính pow(b, -1) mod m
+-Cách giải quyết thứ nhất là dùng "Giải thuật Euclid mở rộng"
+thì ta có ax + my = 1
+-Cách giải quyết thứ 2 là dùng "Định lý Euler" với m là SNT
+thì ta có pow(a, -1) = pow(a, m - 2) mod(m)

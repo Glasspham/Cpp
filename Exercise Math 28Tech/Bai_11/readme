@@ -1,0 +1,11 @@
+Bài 11.Fibonacci
+Dãy số Fibonacci được định nghĩa như sau: F0 = 0, F1 = 1, Fi = Fi-1 + Fi-2.
+Cho số nguyên dương n, với 2≤n≤92. Hãy viết chương trình in ran số Fibonacci
+đầu tiên.
+Input
+Số nguyên dương n (2 ≤ n ≤ 92)
+Output
+n số fibonacci đầu tiên, mỗi số được in cách nhau một dấu cách.
+Ví dụ
+Input   Output
+5       0 1 1 2 3

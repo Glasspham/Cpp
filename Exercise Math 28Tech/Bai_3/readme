@@ -1,0 +1,24 @@
+Bài 3. Phân tích 
+Hãy phân tích một số nguyên dương n thành thừa số nguyên tố
+Input
+Số nguyên dương n (1 ≤ n ≤ 10^9)
+Output
+Cách phân tích thừa số nguyên tố của n. Bạn hãy thử cài đặt với 5 cách in thừa số
+nguyên tố sau.
+Ví dụ:
+Cách phân tích 1.
+Input:      Output:
+28          2 2 7
+Cách phân tích 2.(Mỗi thừa số nguyên tố chỉ liệt kê 1 lần).
+Input:      Output:
+28          2 7
+Cách phân tích 3. Thừa số nguyên tố được liệt kê kèm theo sỗ mũ.
+Input:      Output:
+28          2(2) 7(1)
+Cách phân tích 4. Thêm dấu x vào giữa các thừa số nguyên tố
+Input:      Output:
+8           2x2x2
+28          2x2x7
+Cách phân tích 5.
+Input:      Output:
+60          60 = 2^2 * 3^1 * 5^1

@@ -1,0 +1,5 @@
+Giải thuật Euclid mở rộng (Extended Euclidean Algorithm)
+Link thuật toán: "https://cp-algorithms.com/algebra/extended-euclid-algorithm.html"
+Tóm tắt thuật toán:
+Thuật toán Euclide mở rộng biểu diễn GCD(a,b) = ax + by
+Ví dụ: 80 * (-2) + 55 * 3 = 5

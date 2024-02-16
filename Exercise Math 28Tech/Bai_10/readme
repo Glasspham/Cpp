@@ -1,0 +1,12 @@
+Bài 10. Lũy thừa nhị phân.
+Tính a^b với a,b nguyên không âm.
+Input
+Dòng đầu tiên là số lượng bộ test T. (1≤T≤100).
+Mỗi test case là một số nguyên dương a,b.
+Output
+In kết quả mỗi test case trên 1 dòng.
+Ví dụ
+Input   Output
+2
+2 10    1024
+3 3     27

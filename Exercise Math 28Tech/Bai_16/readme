@@ -1,0 +1,2 @@
+Tính số thứ n của Fibonacci (1000 đến 1000000): có thể dùng huy hoạch động.
+Tính số thứ n của Fibonacci (0 <= n <= 10^18): dùng matrix và lũy thừa nhị phân.

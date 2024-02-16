@@ -1,0 +1,10 @@
+Bài 9. Ước chung lớn nhất, bội chung nhỏ nhất.
+Tìm ước chung lớn nhất của 2 số nguyên không âm a và b.
+Input
+2 số nguyên không âm a và b (0 ≤ a,b ≤ 10^9).
+Output
+In ra ước chung lớn nhất của 2 số và bội chung nhỏ nhất của 2 số.
+Ví dụ
+Input       Output
+100 20      20 100
+17 29       1 493

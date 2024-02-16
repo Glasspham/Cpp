@@ -1,0 +1,12 @@
+Bài 7. Nguyên tố cùng nhau.
+Nhập 2 số nguyên dương a,b. Xác định xem 2 số vừa nhập có phải là 2 số nguyên
+tố cùng nhau.
+Input
+2 số nguyên dương a,b (1 ≤ a,b ≤ 10^12).
+Output
+In YES nếu 2 số a,b nguyên tố cùng nhau, ngược lại in NO.
+Ví dụ
+Input       Output
+20 17       Yes
+14 15       Yes
+8 128       NO

@@ -1,0 +1,14 @@
+Bài 12. Kiểm tra số fibonacci.
+Nhập vào một số và kiểm tra xem số vừa nhập có phải là số trong dãy fibonacci hay
+không?
+Input
+Dòng đầu tiên là số lượng test case T(1≤n≤100).
+T dòng tiếp theo mỗi dòng là 1 số nguyên dương n (1≤n≤1018)
+Output
+Mỗi test case in trên 1 dòng, in YES nếu n là số fibonacci, ngược lại in NO.
+Ví dụ
+Input                   Output
+3
+2                       YES
+4                       NO
+420196140727489673      YES
