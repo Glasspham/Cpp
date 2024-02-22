@@ -15,7 +15,7 @@ namespace constants
     const int gia_1(15000);
     const int gia_2(13500);
     const int gia_3(11000);
-    const int phantram(0.1);
+    const double phantram(0.1);
 	
 }
 #endif // !_CONSTANTS_
