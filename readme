@@ -1,22 +1,4 @@
-Tôi viết code này trên Visual Studio Code
-Khi tải code có 2 .cpp và .h
-Lần đầu chạy:
-B1:Code-runner: Executor Map
-B2:Edit in settings.json
-B3:Tìm dòng "cpp" thay $fileName thành *.cpp
-Nếu không hiểu có thể vào link này lướt xuống Visual studio code:
-https://blog.luyencode.net/cach-tach-code-c-thanh-file-h-va-cpp/
-Lần sau không cần làm lại
-B1:settings(ctrl + ,)
-B2:Chọn chỉnh sưa file json (nằm bên gốc bên trái cái file có mũi tên)
-B3:Tìm dòng "cpp" thay $fileName thành *.cpp
-Nhớ nhấn save lại là xong!
-lưu ý:$fileName (file đơn)
-      *.cpp (file tách)
-
-
-Trong bài có sử dụng "preprocessor directives"(hướng dẫn trình biên dịch)
-Trong bài sài nhiều nhất là #if và #endif là 2 thứ luôn đi chung với nhau.
-#if n   Nếu n là 1 thì code chạy
-        Nếu n là 0 thì code không thể chạy
-Và #endif có thể đi cùng với nhiều preprocessor directives khác nữa
+Tất cả bài tập ở đây là làm theo 28Tech
+Trong phần "ngôn ngữ lập trình C++" video #29 #30
+#29 "https://youtu.be/lkhRIjrAtO8?si=93CkWQlZHMbBWPoB"
+#30 "https://youtu.be/OEtmPRXhEwA?si=k9nJrq34vTCyfuli"
