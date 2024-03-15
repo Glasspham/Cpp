@@ -1,0 +1,33 @@
+Bài 17. (The 2014 ACM-ICPC Asia Jakarta Regional Contest) : Problems A
+Phân tích nhóm (phân nhóm, chia nhóm) là công việc phân chia các phần tử trong
+một tập hợp thành một hoặc nhiều nhóm mà trong đó, các phần tử trong cùng một
+nhóm sẽ giống nhau hơn so với phần tử thuộc nhóm khác. Cho một tập N số
+nguyên dương và một số nguyên dương K, nhiệm vụ của bạn là đếm xem có bao
+nhiêu nhóm. Biết rằng 2 phần tử được xếp chung nhóm với nhau nếu như chênh
+lệch giữa chúng không vượt quá K.
+Ví dụ: với tập N = 7 số nguyên dương: 2, 6, 1, 7, 3, 4, 9 và K = 1 thì ta sẽ có các
+mối quan hệ sau:
+- 2 và 1 chung một nhóm (chênh lệch giữa chúng là 1, không vượt quá K)
+- 2 và 3 chung một nhóm
+- 6 và 7 chung một nhóm
+- 3 và 4 chung một nhóm
+Vậy ta sẽ có 3 nhóm: {1, 2, 3, 4}, {6, 7} và {9}
+Input: Dòng đầu tiên chứa số nguyên T - số bộ test cần kiểm tra (T ≤ 100), mỗi bộ
+test gồm 2 dòng:
+- Dòng đầu trong mỗi bộ test chứ 2 số nguyên dương N, K (1 ≤ N ≤ 100,
+1 ≤ K ≤ 10^6)
+- Dòng thứ hai trong mỗi bộ test chứ N số nguyên dương - các phần tử của tập hợp
+(giá trị không vượt quá 106)
+Output: gồm N dòng, mỗi dòng xuất theo mẫu sau "Case #X: Y", trong đó X là số
+thứ tự của bộ test (theo đúng thứ tự) và Y là kết quả cần tìm của bộ test đó
+Ví dụ
+Input                               Output     
+4
+7 1 
+2 6 1 7 3 4 9                       Case #1: 3
+7 2
+2 6 1 7 3 4 9                       Case #2: 1
+5 5
+15 1 20 4 17                        Case #3: 2
+8 10
+100 200 300 400 500 600 700 800     Case #4: 8

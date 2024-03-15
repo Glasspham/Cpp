@@ -1,0 +1,7 @@
+Bài 1. Thuật toán đổi chỗ trực tiếp
+In ra các bước của thuật toán sắp xếp đổi chỗ trực tiếp
+Ví dụ:          
+Input       Output                       
+4           Buoc 1: 2 7 5 3    
+5 7 3 2     Buoc 2: 2 3 7 5           
+            Buoc 3: 2 3 5 7

@@ -1,0 +1,16 @@
+Bài 14. Nhà gần nhất
+Trên một con đường mới mở đã xuất hiện lác đác một số căn nhà vừa xây xong.
+Người ta đánh địa chỉ bằng cách tính khoảng cách từ vị trí của căn nhà đến đầu
+đường theo đơn vị mét. Biết địa chỉ các căn nhà, hãy tìm khoảng cách giữa hai nhà
+gần nhau nhất.
+Input: gồm 2 dòng
+- Dòng thứ nhất là số nguyên n biểu thị số lượng các căn nhà (2 <= n <= 10^5)
+- Dòng thứ hai gồm n số nguyên a1, a2, a3, ... an, mỗi số cách nhau một khoảng trắng
+là địa chỉ của n căn nhà. (0 <= ai <= 10^9). Dữ liệu cho đảm bảo không có 2 địa chỉ
+nào trùng nhau.
+Output:
+- Là số nguyên duy nhất cho biết khoảng cách giữa hai căn nhà gần nhau nhất.
+Ví dụ
+Input   Output
+3       2
+1 6 3

@@ -1,0 +1,7 @@
+Bài 2. Thuật toán sắp xếp chọn
+In ra các bước của thuật "án sắp xếp chọn.
+Ví dụ:
+Input       Output
+4           Buoc 1: 2 7 3 5
+5 7 3 2     Buoc 2: 2 3 7 5
+            Buoc 3: 2 3 5 7

@@ -1,0 +1,8 @@
+Bài 3. Thuật toán sắp xếp chèn.
+In ra các bước của thuật toán sắp xếp chèn.
+Ví dụ:
+Input       Output
+4           Buoc 0: 5
+5 7 3 2     Buoc 1: 5 7
+            Buoc 2: 3 5 7
+            Buoc 3: 2 3 5 7

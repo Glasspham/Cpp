@@ -1,0 +1,13 @@
+Bài 17. Đổi chỗ
+Cho một dãy gồm n số nguyên a[1], a[2], ..., a[n] hãy đưa ra dãy các thao tác đổi
+chỗ để nhận được dãy không giảm.
+Input:
+- Dòng đầu chứa số nguyên n <= 10^5
+- Dòng thứ hai chứa n số nguyên a[1], a[2], ..., a[n] (-10^9 ≤ a[1], a[2], ..., a[n] ≤ 10^9), 
+các số cách nhau bởi dấu cách.
+Ouput: Gồm một số dòng, mỗi dòng chứa hai số i, j (1 ≤ i,j ≤ n, i != j) mô tả một
+phép đổi chỗ phần tử ở vị trí thứ i với phần tử ở vị trí thứ j.
+Ví dụ
+Input           Ouput
+5               1 5
+5 4 3 2 1       2 4

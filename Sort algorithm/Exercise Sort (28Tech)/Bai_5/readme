@@ -1,0 +1,8 @@
+Bài 5. Thuật toán tìm kiếm tuyến tính
+Kiểm tra xem phần tử x có nằm trong mảng hay không, nếu có in ra 1, ngược lại in ra 0
+Ví dụ
+Input               Output
+5 3
+1 2 3 4 5           1
+6 4
+1 1 2 0 7 8         0

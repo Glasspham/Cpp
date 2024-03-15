@@ -1,0 +1,16 @@
+Bài 27. Hợp nhất 2 mảng
+Cho mảng a gồm n phần tử và mảng b gồm m phần tử. Hợp nhất 2 mảng để được 1 mảng
+sắp xếp tăng dần.
+Input
+Dòng đầu tiên là số lượng test case T (1 ≤ T ≤ 100).
+Mỗi test case gồm 3 dòng, dòng đầu tiên là n và m. (1 ≤ n, m ≤ 10^6)
+Dòng thứ 2 là các phần tử trong mảng a. (-10^9 ≤ ai ≤ 10^9)
+Dòng thứ 3 là các phần tử trong mảng b. (-10^9 ≤ bi ≤ 10^9)
+Output
+Mỗi test case in kết quả trên một dòng
+Ví dụ
+Input       Output
+1           1 1 2 2 3 5 6
+3 4
+1 2 3
+1 5 6 2

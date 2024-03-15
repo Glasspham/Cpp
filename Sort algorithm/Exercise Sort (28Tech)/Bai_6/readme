@@ -1,0 +1,8 @@
+Bài 6 . Thuật toán tìm kiếm nhị phân
+Kiểm tra xem phần tử x có nằm trong mảng đã được sắp xếp hay không? Nếu có in ra 1,
+ngược lại in ra 0
+Input               Output
+5 3
+1 2 3 4 5           1
+6 4
+0 1 1 2 7 8         0

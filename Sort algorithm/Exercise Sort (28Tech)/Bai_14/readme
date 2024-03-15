@@ -1,0 +1,17 @@
+Bài 15. Xếp gạch
+Nam có n viên gạch được đánh số từ 1 đến n. Các viên gạch có độ cứng lần lượt là
+a1, a2, ..., an. Một viên gạch có độ cứng x nghĩa là Nam có thể chồng lên trên viên
+gạch đó tối đa x viên gạch khác, nếu chồng nhiều hơn thì viên gạch đó bị vỡ. Hỏi
+Nam có thể sắp được chồng gạch cao nhất là bao nhiêu?
+Input:
+- Dòng đầu tiên là số nguyên n (1 ≤ n ≤ 100) - là số viên gạch.
+- Dòng tiếp theo gồm n số nguyên a1, a2, ..., an (0 ≤ ai ≤ 100) mỗi số cách nhau một
+khoảng trắng.
+Output:
+- Là số nguyên xác định chiều cao cao nhất của chồng gạch mà Nam sắp được.
+Ví dụ
+Input       Output
+4
+1 2 3 4     4
+4
+0 0 0 0     1

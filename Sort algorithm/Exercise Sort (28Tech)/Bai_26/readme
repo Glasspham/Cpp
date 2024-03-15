@@ -1,0 +1,14 @@
+Bài 30. Hợp và giao của 2 mảng
+Cho 2 mảng đã được sắp xếp tăng dần, thực hiện tìm hợp và giao của 2 mảng. 
+Các phần tử trong mỗi mảng khác nhau đôi một.
+Input
+Dòng đầu tiên là số lượng phần tử của 2 dãy n và m. (1 ≤ n, m ≤ 10^6).
+Dòng thứ 2 là n phần tử trong dãy số 1. (-10^6 ≤ ai ≤ 10^6).
+Dòng thứ 3 là m phần tử trong dãy số 2. (-10^6 ≤ ai ≤ 10^6).
+Output
+Dòng thứ 1 là hợp của 2 mảng
+Dòng thứ 2 là giao của 2 mảng
+Input       Output
+3 5         
+1 2 3       1 2 3 5 9
+1 2 3 5 9   1 2 3

@@ -1,0 +1,17 @@
+Bài 23. Cặp số có tồng bằng k
+Cho mảng a gồm n phần tử và số nguyên dương k.
+Đếm số lượng cặp số có tổng bằng k.
+Input
+Dòng thứ 1 là số lượng test case T (1 ≤ T ≤ 100).
+Mỗi test case gồm 2 dòng, dòng thứ 1 là số lượng phần tử trong mảng và số nguyên
+dương k (1 ≤ n, k ≤ 10^6)
+Dòng thứ 2 là n phần tử trong mảng (-10^6 < ai ≤ 10^6).
+Output
+In ra số lượng cặp số có tổng bằng k trên mỗi dòng.
+Ví dụ
+Input       Output
+2
+4 4
+2 2 2 2     6
+3 3
+1 2 3       1
