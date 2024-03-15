@@ -8,7 +8,7 @@ B4:Tìm dòng "cpp" thay $fileName thành *.cpp
 Nếu không hiểu có thể vào link này lướt xuống Visual studio code:
 https://blog.luyencode.net/cach-tach-code-c-thanh-file-h-va-cpp/
 Lần sau không cần làm lại
-B1:settings(ctrl + ,)
+B1:Vào settings(ctrl + ,)
 B2:Chọn chỉnh  file json (nằm bên gốc bên trái cái file có mũi tên)
 B3:Tìm dòng "cpp" thay $fileName thành *.cpp
 Nhớ nhấn save lại là xong!
