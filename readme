@@ -1,9 +1,10 @@
 Tôi viết code này trên Visual Studio Code
-Khi tải code có 2 .cpp và .h
-Lần đầu chạy:
-B1:Code-runner: Executor Map
-B2:Edit in settings.json
-B3:Tìm dòng "cpp" thay $fileName thành *.cpp
+Khi tải code có 2 file .cpp và 1 file .h
+Lần đầu chạy: 
+B1:Vào setting (ctrl + ,) 
+B2:Code-runner: Executor Map
+B3:Edit in settings.json
+B4:Tìm dòng "cpp" thay $fileName thành *.cpp
 Nếu không hiểu có thể vào link này lướt xuống Visual studio code:
 https://blog.luyencode.net/cach-tach-code-c-thanh-file-h-va-cpp/
 Lần sau không cần làm lại
