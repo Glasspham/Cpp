@@ -1,0 +1,13 @@
+Bài 3. Số lộc phát
+Một số được gọi là lộc phát nếu chỉ có 2 chữ số 6 và 8. Cho số tự nhiên N. Hãy liệt kê các
+số lộc phát có không quá N chữ số.
+Input:
+· Dòng đầu tiên ghi lại số tự nhiên T là số lượng bộ test (T<10);
+· T dòng kế tiếp mỗi dòng ghi số N (1<N<15).
+Output:
+· In ra đáp án theo thứ tự giảm dần.
+Ví dụ:
+Input   Output
+2
+2       88 86 68 66 8 6
+3       888 886 868 866 688 686 668 666 88 86 68 66 8 6

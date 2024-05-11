@@ -1,0 +1,20 @@
+Bài 1. Cửa sổ lớn nhất
+Cho mảng số nguyên có n phần tử và số nguyên dương k. Tìm dãy con liên tiếp của mảng
+có độ dài k sao cho tổng các phần tử trong dãy con là lớn nhất và liệt kê dãy con đó. Nếu
+có nhiều dãy con có cùng tổng lớn nhất thì in ra dãy con đầu tiên
+Input
+Dòng đầu tiên là số lượng test case T . (1≤T≤100).
+Mỗi test case bao gồm 2 dòng, dòng đầu tiên là số lượng phần tử trong mảng và số
+nguyên dương k (1≤k≤n≤1000).
+Dòng thứ 2 bao gồm n phần tử trong mång. (-10^9≤ai≤10^9).
+Output
+Dòng thứ 1 in ra tổng lớn nhất
+Dòng thứ 2 in ra dãy con
+Ví dụ
+Input
+1
+10 3
+1 2 3 1 5 2 7 8 9 1
+Output
+24
+7 8 9

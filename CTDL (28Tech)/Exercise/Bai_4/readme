@@ -1,0 +1,15 @@
+Bài 4. Cửa sổ trùng nhau
+Cho mảng số nguyên có n phần tử và số nguyên dương k. Hãy kiểm tra xem có tồn tại cửa
+sổ cỡ k nào của mảng ban đầu chứa 2 phần tử giống nhau hay không?
+Input
+Dòng đầu tiên là số lượng test case T . (1≤T≤100).
+Mỗi test case bao gồm 2 dòng, dòng đầu tiên là số lượng phần tử trong mảng và số
+nguyên dương k (1≤k≤n≤10^5).
+Dòng thứ 2 bao gồm n phần tử trong mång. (-10^9Sai≤10^9).
+Output
+In ra YES nếu tồn tại, ngược lại in NO
+Ví dụ
+Input       Output
+1           YES
+5 3
+1 2 3 1 3

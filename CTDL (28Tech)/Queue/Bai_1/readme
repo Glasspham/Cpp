@@ -1,0 +1,12 @@
+Bài 1. Liệt kê số nhị phân
+Cho số tự nhiên n. Hãy in ra tất cả các số nhị phân từ 1 đến n.
+Input:
+· Dòng đầu tiên ghi lại số lượng test T (T≤100).
+· Môi test là một số tự nhiên n được ghi trên một dòng (n≤10000).
+Output:
+· Đưa ra kết quả mỗi test trên một dòng.
+Ví dụ:
+Input   Output
+2
+2       1 10
+5       1 10 11 100 101
