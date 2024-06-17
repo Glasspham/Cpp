@@ -7,12 +7,10 @@ Link video bài giảng: https://youtu.be/dB2DWSKGLj8?si=kBFlEqvd8Mfd-ywt
 */
 
 #if 0 // Search Binary: là mảng đã được sắp xếp tăng or giảm dần
-bool Binary_search(int a[], int n, int x)
-{
+bool Binary_search(int a[], int n, int x){
     sort(a, a + n);
     int l = 0, r = n - 1;
-    while (l <= r)
-    {
+    while (l <= r){
         int mid = (r + l) / 2;
         if(a[mid] == x)
             return true;
@@ -24,8 +22,7 @@ bool Binary_search(int a[], int n, int x)
     return false;
 }
 
-bool Binary_search(int a[], int l, int r, int x)
-{
+bool Binary_search(int a[], int l, int r, int x){
     sort(a, a + r + 1);
     if(l > r)
         return false;
@@ -38,8 +35,7 @@ bool Binary_search(int a[], int l, int r, int x)
         return Binary_search(a, l, mid - 1, x);
 }
 
-int main()
-{
+int main(){
     int n = 10;
     int a[n] = {1,2,3,4,5,6,7,8,9,10};
     int x = 10;
@@ -48,11 +44,9 @@ int main()
     sort(a, a + n);
     int l = 0, r = 9;
     bool f = true;
-    while (l <= r)
-    {   
+    while (l <= r){   
         int mid = (l + r) / 2;
-        if(a[mid] == x)
-        {
+        if(a[mid] == x){
             cout << "Found \n";
             f = false;
             break;
@@ -90,14 +84,11 @@ int main()
 #endif
 
 #if 0 // Tìm vị trí đầu tiên và cuối cùng của 1 phần tử x trong 1 mảng đã được sắp xếp
-int first_pos(int a[], int n, int x)
-{
+int first_pos(int a[], int n, int x){
     int l = 0, r = n - 1, res = -1;
-    while (l <= r)
-    {
+    while (l <= r){
         int mid = (l + r) / 2;
-        if(a[mid] == x)
-        {
+        if(a[mid] == x){
             res = mid;
             r = mid - 1;
         }
@@ -108,14 +99,11 @@ int first_pos(int a[], int n, int x)
     return res;
 }
 
-int last_pos(int a[], int n, int x)
-{
+int last_pos(int a[], int n, int x){
     int l = 0, r = n - 1, res = -1;
-    while (l <= r)
-    {
+    while (l <= r){
         int mid = (r + l) / 2;
-        if(a[mid] == x)
-        {
+        if(a[mid] == x){
             res = mid;
             l = mid + 1;
         }
@@ -126,8 +114,7 @@ int last_pos(int a[], int n, int x)
     return res;
 }
 
-int main()
-{
+int main(){
     int n = 10, x = 4;
     int a[n] = {1,2,2,3,3,3,4,4,5,5};
     cout << first_pos(a,n,x) << last_pos(a,n,x) << endl;

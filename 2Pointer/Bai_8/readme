@@ -1,0 +1,15 @@
+Problem H. Segments with small set
+Given an array of n integers ai. Let's say that a segment of this array a[l .. r] (1≤l≤r≤n) is
+good if there are no more than k unique elements on this segment. Your task is to find the
+number of different good segments.
+Input
+The first line contains integers n and k (1≤n≤10^5, 0<k≤n). The second line contains
+integers ai (1≤ai≤10^5).
+Output
+Print one integer, the number of good segments.
+Example
+Input
+7 3
+2 6 4 3 6 8 3
+Output
+20

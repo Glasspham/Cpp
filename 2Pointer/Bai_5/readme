@@ -1,0 +1,16 @@
+Problem E. Segment With big Sum
+Given an array of n integers aiai. Let's say that the segment of this array a[1 .. r] (1≤l<r≤n)
+is good if the sum of elements on this segment is at least s. Your task is to find the
+shortest good segment.
+Input
+The first line contains integers n and s (1≤n≤10^5, 1≤s≤10^18). The second line contains
+integers ai (1≤ai≤10^9).
+Output
+Print one integer, the length of the shortest good segment. If there are no such segments,
+print -1.
+Example
+Input
+7 20
+2 6 4 3 6 8 9
+Output
+3

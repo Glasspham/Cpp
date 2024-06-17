@@ -2,16 +2,14 @@
 using namespace std;
 
 // Cấu trúc của một nút trong cây
-struct Node 
-{
+struct Node {
     int data;
     Node* left;
     Node* right;
 };
 
 // Tính duyệt cây
-void treeTraversal(Node* root) 
-{
+void treeTraversal(Node* root) {
     if(root == NULL)
         return;
     cout << root  -> data << ' '; // Duyệt trước
@@ -20,8 +18,7 @@ void treeTraversal(Node* root)
 }
 
 // Tạo nút mới
-Node* newNode(int data)
-{
+Node* newNode(int data){
     Node* node = new Node();
     node -> data = data;
     node -> left = NULL;
@@ -29,8 +26,7 @@ Node* newNode(int data)
     return node;
 }
 
-int main() 
-{
+int main() {
     Node* root = newNode(1);
     root -> left = newNode(2);
     root -> right = newNode(3);

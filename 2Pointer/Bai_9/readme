@@ -1,0 +1,15 @@
+Problem I. Segment with small Spread
+Given an array of n integers ai. Let's say that a segment of this array a[l .. r] (1≤l<r≤n) is
+good if the difference between the maximum and minimum elements on this segment is at
+most k. Your task is to find the number of different good segments.
+Input
+The first line contains integers n and k (1≤n≤10^5, 0≤k≤10^18). The second line contains
+integers ai (1≤ai≤10^18).
+Output
+Print the number of good segments.
+Example
+Input
+7 3
+2 6 4 3 6 8 9
+Output
+16
