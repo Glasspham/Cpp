@@ -34,8 +34,3 @@ int main(){
     for(int i = 0; i < N; ++i) cin >> ds[i];
     for(int i = 0; i < N; ++i) cout << ds[i] << endl;
 }
-// 1
-// Nguyen Van An
-// D20CQCN01-B
-// 2/12/2002
-// 3.19
