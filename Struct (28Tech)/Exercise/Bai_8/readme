@@ -1,0 +1,27 @@
+Bài 8. Diện tích hình tròn ngoại tiếp tam giác
+Cho ba điểm A, B, C trong không gian hai chiều 0xy.
+Hãy tính diện tích hình tròn ngoại tiếp tam giác tạo bởi 3 điểm trên.
+Công thức Heron tính diện tích tam giác với 3 cạnh là a, b, c:
+S = 1/4 * ((a+b+c)(a+b-c)(c+b-a)(a+c-b)) ** 0.5
+Công thức tính bán kính hình tròn ngoại tiếp:
+R = a*b*c/4*S
+Khi tính diện tích nên dùng hằng số PI
+#define PI 3.141592653589793238
+Input
+Dòng đầu ghi số bộ test (không quá 20).
+Mỗi bộ test ghi trên 1 dòng 6 số thực lần lượt là tọa độ của 3 điểm A, B, C. Giá trị tọa độ
+không quá 1000.
+Output
+Nếu 3 điểm không thể tạo thành tam giác, in ra INVALID
+Nếu 3 điểm tạo thành tam giác, in ra diện tích hình tròn ngoại tiếp với độ chính xác 3 số
+phần thập phân.
+Ví dụ
+Input
+3
+0 0 0 5 0 199
+1 1 1 1 1 1
+0 0 0 5 5 0
+Output
+INVALID
+INVALID
+39.270

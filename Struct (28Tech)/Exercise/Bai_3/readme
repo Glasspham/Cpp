@@ -1,0 +1,33 @@
+Bài 3. Cấu trúc điểm
+Viết chương trình khai báo cấu trúc điểm trong không gian hai chiều với hai tọa độ x và y
+(kiểu số thực double).
+struct Point {
+    doube x, y;
+}
+Nhập hai điểm A và B. Tính khoảng cách giữa hai điểm A, B với độ chính xác 4 chữ số
+sau dấu phẩy.
+Input
+· Dòng đầu ghi số bộ test, không quá 20.
+· Mỗi bộ test có 4 số thực lần lượt là tọa độ của 2 điểm A và B, giá trị tuyệt đối
+không quá 1000.
+Ouput
+Với mỗi bộ test, viết ra khoảng cách giữa 2 điểm với 4 chữ số sau dấu phẩy.
+Ví dụ
+Input
+2
+0 0 0 5
+0 199 5 6
+Output
+5.0000
+193.0648
+Yêu cầu hàm main có sẵn :
+int main(){
+    struct Point A, B;
+    int t;
+    cin>>t;
+    while(t -- ){
+        input(A); input(B);
+        cout << fixed << setprecision(4) << distance(A,B) << endl;
+    }
+    return 0;
+}
