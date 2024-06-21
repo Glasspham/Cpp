@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// Quay lui in ra hóa vị
+// Quay lui in ra vi tri dat quan hau
 int N, a[100], cot[100], dcx[100], dcn[100], x[100][100];
 
 void in(){
