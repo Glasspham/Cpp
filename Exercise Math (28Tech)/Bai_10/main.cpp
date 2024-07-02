@@ -10,7 +10,7 @@ ll pow1(ll a, ll b)
         if(b % 2 == 1)
             res *= a;
         b /= 2;
-        a *= 2;
+        a *= a;
     }
     return res;
 }
