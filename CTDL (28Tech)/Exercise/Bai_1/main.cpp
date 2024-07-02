@@ -45,8 +45,6 @@ int main(){
 
 
 #if 1
-int isP
-
 int main(){
     int t; cin >> t;
     while(t--){
