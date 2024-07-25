@@ -15,6 +15,7 @@ Test 4
 Input: 1 2 3 4 5, you win!
 Result: win! you 5, 4 3 2 1
 
+
 Question 2
 Viết chương trình đọc vào chuỗi s, tìm tất cả các chuỗi con trong s mà
 chuỗi con chỉ có duy nhất 1 kí tự (ví dụ : aaaa, bbbb, cc, ... ) và trả về độ
@@ -28,6 +29,7 @@ Test 1
 Input: abcabbbcbb
 Result: 3
 
+
 Question 3
 Viết chương trình tìm và trả về độ dài của chuỗi con dài nhất không có
 ký tự nào được lặp lại có trong s.
@@ -39,6 +41,7 @@ For example:
 Test 1
 Input: abcabcbb
 Result: 3
+
 
 Question 4
 Viết chương trình đọc vào chuỗi s từ bàn phím, tìm và trả về chuỗi con
@@ -53,6 +56,7 @@ Test 1
 Input: babad
 Result: bab
 
+
 Question 5
 Hiện thực hàm void replaceString(string s, string s1, string s2) để in ra
 chuỗi s sau khi đã thay thế chuỗi con s1 cuối cùng thành s2 có trong s.
@@ -66,6 +70,7 @@ replaceString(s, s1, s2);
 Result
 Truong Dai Hoc Bach Khoa, Song Gon
 
+
 Question 6
 Hiện thực hàm deleteWord(string s, string s1) với chức năng in ra chuỗi
 s sau khi xóa tất cả các chuỗi s1 có trong s.
@@ -76,6 +81,7 @@ string s1 = "ai ";
 deleteWord(s, s1);
 Result
 Truong DHoc Bach Khoa, SGon
+
 
 Question 7
 Hiện thực hàm findAllIndex(string s1, string s2) để in ra tất cả các vị trí
@@ -91,6 +97,7 @@ string s2 = "a";
 findAllIndex(s1,s2);
 Result
 8 16 23
+
 
 Question 8
 Hiện thực hàm cutString(string s, int index) để in ra chuỗi con của chuỗi
