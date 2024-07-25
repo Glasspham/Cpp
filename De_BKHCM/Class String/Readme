@@ -67,8 +67,7 @@ string s = "Truong Dai Hoc Bach Khoa, Sai Gon";
 string s1 = "ai";
 string s2 = "ong";
 replaceString(s, s1, s2);
-Result
-Truong Dai Hoc Bach Khoa, Song Gon
+Result: Truong Dai Hoc Bach Khoa, Song Gon
 
 
 Question 6
@@ -79,8 +78,7 @@ Test
 string s = "Truong Dai Hoc Bach Khoa, Sai Gon";
 string s1 = "ai ";
 deleteWord(s, s1);
-Result
-Truong DHoc Bach Khoa, SGon
+Result: Truong DHoc Bach Khoa, SGon
 
 
 Question 7
@@ -95,8 +93,7 @@ Test
 string s1 = "Truong Dai Hoc Bach Khoa."; 
 string s2 = "a";
 findAllIndex(s1,s2);
-Result
-8 16 23
+Result: 8 16 23
 
 
 Question 8
@@ -107,5 +104,4 @@ For example:
 Test
 string s = "Truong Dai Hoc Bach Khoa.";
 cutString(s, 7);
-Result
-Dai Hoc Bach Khoa.
+Result: Dai Hoc Bach Khoa.
