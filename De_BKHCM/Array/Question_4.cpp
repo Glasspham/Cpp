@@ -4,7 +4,7 @@ using namespace std;
 
 using ll = long long;
 
-int ascendingRows(int arr[][100], int row, int col){
+int ascendingRows(int arr[][1000], int row, int col){
     int cnt = 0; 
     for(int i = 0; i < row; ++i){
         bool f = true;
@@ -22,7 +22,7 @@ int ascendingRows(int arr[][100], int row, int col){
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int arr[][100] = {{32,4,9}, {-80,37,71}, {-91,-79,-55}};
+    int arr[][1000] = {{32,4,9}, {-80,37,71}, {-91,-79,-55}};
     cout << ascendingRows(arr, 3, 3);
     return 0;
 }

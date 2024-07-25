@@ -15,7 +15,7 @@ bool isPrime(int num){
     return true;
 }
 
-int primeColumns(int arr[][100], int row, int col){
+int primeColumns(int arr[][1000], int row, int col){
     int cnt = 0;
     for(int i = 0; i < col; ++i){
         int sum = 0;
@@ -29,7 +29,7 @@ int primeColumns(int arr[][100], int row, int col){
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int arr[][100] = {{-64,-28,-3,64}, {-56,90,57,-31}};
+    int arr[][1000] = {{-64,-28,-3,64}, {-56,90,57,-31}};
     cout << primeColumns(arr, 2, 4);
     return 0;
 }
