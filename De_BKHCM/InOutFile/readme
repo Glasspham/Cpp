@@ -214,3 +214,97 @@ Với L và A được nhập vào từ bàn phím.
 và author.txt.
 Đầu ra:
 "True" hoặc "False" ứng với đầu vào.
+
+
+Question 8
+Hãy hiện thực hàm
+    void test(string filename);
+để kiểm tra hàm
+    size_t check_spelling(string text);
+đã được hiện thực trước. Hàm check_spelling được sử dụng để kiểm tra lỗi viết hoa tên
+khoa: "Khoa học và Kỹ thuật Máy tính", trả về vị trí của ký tự viết hoa lỗi đầu tiên hoặc
+std::string::npos nếu không có lỗi nào.
+Hàm check_spelling được kiểm tra tính đúng sai bằng các testcase được đặt trong các
+file testcaseN.txt, với N là một số nguyên dương. Nội dung file ở dạng:
+---
+description: <x>
+expect: <y>
+---
+<z>
+Trong đó vị trí <x> chứa mô tả của testcase trên một hàng, vị trí <y> chứa output mong
+muốn của hàm check_spelling khi chạy với tham số là nội dung ở vị trí <z>.
+Trong trường hợp kết quả của hàm check_spelling khớp với testcase, hàm test sẽ in ra
+stdout:
+    ok <N> - <x>
+và ngược lại:
+    not ok <N> - <x>
+    - expected: <y>
+    -      got: <t>
+trong đó N là số thứ tự của testcase, được suy ra từ tên file và t là kết quả hàm
+check_spelling đã trả về. <x> và <y> được mô tả ở trên.
+Tóm lại: Hiện thực hàm
+void test(string filename);
+Input: Tên file testcase ở dang testcaseN.txt.
+Output: In ra màn hình ok... hay not ok... ở định dạng được mô tả như trên tùy
+theo hàm check_spelling chạy ra đúng kết quả theo testcase hay không.
+For example:
+Test 1:
+Input
+---
+description: quen in hoa chu "Khoa"
+expect: 27
+---
+Chao mung ban den voi khoa khoa hoc va Ky thuat May tinh
+Result
+ok 1 - quen in hoa chu "Khoa"
+
+Test 2:
+Input
+---
+description: quen in hoa chu "May"
+expect: 26
+---
+Khoa Khoa hoc va Ky thuat may tinh
+Result
+ok 3 - quen in hoa chu "May"
+
+Test 3:
+Input
+---
+description: hoan toan quen in hoa
+expect: 5
+---
+khoa khoa hoc va ky thuat may tinh
+Result
+not ok 5 - hoan toan quen in hoa
+---
+expected: 5
+     got: -1
+---
+
+using namespace std;
+
+void test(std::string filename){
+    if(check_spelling(content) == expect){
+        std::cout << "ok 1 - ... " << std::endl;
+    }
+}
+
+
+Question 9
+Viết hàm void stat(string filename), in ra tên và kích cỡ file có tên là filename. Kích
+thước file cần được định dạng với đơn vị hợp lý (B, KB, MB, GB, TB) sao cho độ lớn là một
+số nguyên lớn hơn 0 và không vượt quá 1024, trừ trường hợp đơn vị là TB.
+For example:
+Test 1:
+Input
+stat("main.exe");
+Result
+name: main.exe
+size: 1MB
+Test 2:
+Input
+stat("main.obj");
+Result
+name: main.obj
+size: 695KB
