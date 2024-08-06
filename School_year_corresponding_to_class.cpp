@@ -19,10 +19,8 @@ void year(int &j){
 
 int main(){
 	cout << "Nam sinh cua ban la: ";
-	int j;
-	cin >> j;
+	int j; cin >> j;
 	j += 6;
 	year(j);
-	system("pause");
 	return 0;
 }

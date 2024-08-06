@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "cstdlib": "cpp",
+        "new": "cpp"
+    }
+}
