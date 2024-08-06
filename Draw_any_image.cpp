@@ -5,7 +5,7 @@
 using namespace std;
 int main(){
 	ifstream file;
-	file.open("C:\\Users\\win7.ITK-20200229YMJ\\Downloads\\banner.txt", ios_base::in);
+	file.open("banner.txt", ios_base::in);
 	string line;
 	while (!file.eof()){
 		getline(file, line);
