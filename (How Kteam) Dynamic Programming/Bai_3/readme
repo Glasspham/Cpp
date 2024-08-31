@@ -1,0 +1,14 @@
+https://tinyurl.com/2aepblor (Bài toán 2)
+Cho hai xâu s và w chỉ gồm các chữ cái latin in thường. Hãy tìm độ dài xâu con chung dài nhất của hai xâu
+biết xâu con chung của một xâu có thể thu được bằng cách xoá đi một số phần tử thuộc xâu đó.
+Ví dụ: xâu “abd”, “bd” là xâu con của xâu “abcd”.
+Input:
+Gồm 2 dòng, mỗi dòng là một xâu chỉ gồm các chữ cái latin in thường, độ dài một xâu không vượt quá 10^3
+Output:
+Số nguyên duy nhất là độ dài xâu con chung dài nhất của hai xâu
+Ví dụ:
+Input
+abcdbc
+bdac
+Output
+3

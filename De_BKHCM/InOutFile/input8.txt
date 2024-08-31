@@ -1,4 +1,0 @@
-description: hoan toan quen in hoa
-expect: 5
----
-khoa khoa hoc va ky thuat may tinh

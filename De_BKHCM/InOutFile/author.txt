@@ -1,4 +1,0 @@
-3
-David 1 5
-John 3
-Henry 2 4

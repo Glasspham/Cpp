@@ -1,0 +1,18 @@
+https://tinyurl.com/2aepblor (Bài toán 1)
+Cho n đồ vật, đồ vật thứ i có trọng lượng là ai và giá trị là bi. Bạn có một cái balo có thể chứa được 
+khối lượng tối đa là W. Hỏi tổng giá trị lớn nhất của các đồ vật có thể cho vào balo là bao nhiêu?
+Input:
+Dòng 1: 2 số nguyên dương n,W lần lượt thể hiện cho số lượng đồ vật và khối lượng tối đa của balo (n,W≤10^3)
+Dòng 2…n+1: Mỗi dòng gồm hai số nguyên dương ai và bi lần lượt thể hiện cho trọng lượng và giá trị của đồ 
+vật đó (ai,bi ≤ 10^3)
+Output:
+Một số nguyên duy nhất là kết quả của bài toán
+Ví dụ:
+Input
+4 7
+2 4
+3 1
+5 2
+4 3
+Output
+7

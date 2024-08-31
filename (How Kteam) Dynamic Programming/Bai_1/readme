@@ -1,0 +1,22 @@
+Bài toán minh hoạ
+Ta sẽ có một bài toán đơn giản về bài toán quy hoạch động như sau:
+Cho một bảng hình chữ nhật có kích thước nxm với ô bắt đầu là ô góc trên bên trái có toạ độ (1, 1), 
+ô kết thúc là ô góc dưới bên phải có toạ độ (n, m). Trên mỗi ô của bảng có ghi một số nguyên dương 
+là số điểm được cộng thêm khi người chơi đi vào ô đó. Ban đầu, người chơi ở ô bắt đầu với số điểm là 0. 
+Biết rằng, người chơi chỉ có thể di chuyển sang phải hoặc đi xuống dưới. Hỏi số điểm tối đa mà người 
+chơi có thể đạt được khi di chuyển từ ô bắt đầu đến ô kết thúc là bao nhiêu?
+Input:
+Dòng 1: Hai số nguyên dương n, m thể hiện cho kích thước của bảng (n, m ≤ 10^3)
+Dòng 2…n+1: Mỗi dòng gồm m số nguyên dương thể hiện cho giá trị các ô trong bảng. Giá trị một ô không 
+vượt quá 109.
+Output:
+Một số nguyên duy nhất là kết quả của bài toán
+Ví dụ:
+Input
+4 5
+0 2 1 3 4
+3 2 4 1 5 
+3 2 1 5 1
+2 3 4 2 2
+Output
+19
