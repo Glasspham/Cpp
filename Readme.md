@@ -35,9 +35,9 @@ Và bạn chỉ cần sửa đoạn code thành như này:
 ```
 "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 ```
-và thay đổi $fileName với *.cpp qua lại.
+và thay đổi `$fileName` với `*.cpp` qua lại.
 
-**lưu ý:** $fileName (file đơn) và *.cpp (file tách)
+**lưu ý:** `$fileName` *(file đơn)* và `*.cpp` *(file tách)*
 
 Bây giờ có thể chạy bình thường. Nếu không hiểu có thể vào link này lướt xuống Visual studio code [(Hướng dẫn) ](https://blog.luyencode.net/cach-tach-code-c-thanh-file-h-va-cpp/)
 
