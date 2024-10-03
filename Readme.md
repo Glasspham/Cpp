@@ -13,7 +13,7 @@ thì có nhiều IDE khác không có, nên các bạn tự sửa phần thư vi
 ### 2. Cấu trúc folder code
 Khi clone về sẽ có vài folder có 2 file .cpp và 1 file .h. 
 #### *Hiểu về 3 file*
-Đây là cấu trúc trong lặp trình hướng đối tượng `*Object-oriented programming*` viết tắt là **OOP**. File `.h` còn gọi là file **header** chỉ thường dùng chỉ đề khai báo chứ không dùng để viết xử lý code bên trong. File `.cpp` khác với file `main.cpp` và có tên giống y chang file **header** vì file này dùng để viết xử lý code bên trong. Cuối cùng là file `main.cpp` chỉ có phần *main* để chạy test.
+Đây là cấu trúc trong lặp trình hướng đối tượng `Object-oriented programming` viết tắt là **OOP**. File `.h` còn gọi là file **header** chỉ thường dùng chỉ đề khai báo chứ không dùng để viết xử lý code bên trong. File `.cpp` khác với file `main.cpp` và có tên giống y chang file **header** vì file này dùng để viết xử lý code bên trong. Cuối cùng là file `main.cpp` chỉ có phần *main* để chạy test.
 
 #### *Cách chạy code*
 **Mô tả vấn đề**
