@@ -41,7 +41,7 @@ và thay đổi `$fileName` với `*.cpp` qua lại.
 
 Bây giờ có thể chạy bình thường. Nếu không hiểu có thể vào link này lướt xuống Visual studio code [(Hướng dẫn) ](https://blog.luyencode.net/cach-tach-code-c-thanh-file-h-va-cpp/)
 
-### 3. Cấu trúc #if #endif
+### 3. Cấu trúc file code
 Trong bài có sử dụng **preprocessor directives** (hướng dẫn trình biên dịch)
 Trong bài sài nhiều nhất là `#if` và `#endif` là 2 thứ luôn đi chung với nhau.
 ```
