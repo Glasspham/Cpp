@@ -2,6 +2,7 @@
 |----------|
 
 |<img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++"  alt="C++" width="55" height="55"/>|
+|----|
 ## Giới thiệu về Repository
 Tổng hợp các lý thuyết và bài tập và những mã nguồn hay của các khóa học free trên mạng như 28Tech, How Kteam, CodeLearn, ...
 
