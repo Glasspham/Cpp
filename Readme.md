@@ -27,7 +27,7 @@ Khi clone về sẽ có vài folder có 2 file .cpp và 1 file .h.
 **Cách khắc phục**
 
 **Lần đầu fix:**
-Để có thể xem setting của extension này thì bạn nhấn vào `extension setting` >> tìm `Code-runner: Executor Map` >> nhấn vào `Edit in setting.jsong`. Với mặc định thì python sẽ như này: 
+Để có thể xem setting của extension này thì bạn nhấn vào `extension setting` >> tìm `Code-runner: Executor Map` >> nhấn vào `Edit in setting.jsong`. Với mặc định thì C++ sẽ như này: 
 ```
 "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 ```
