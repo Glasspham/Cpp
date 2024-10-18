@@ -43,7 +43,7 @@ _Bước 1:_ Vào settings của extension
 
 Cách 1: Vào nhấn vào `Extensions` (ctrl + shift + x) như vị trí số 1 trong ảnh >> Tìm `code runner` >> Chọn `bánh răng` như vị trí số 2 trong ảnh >> Chọn `settings` như vị trí số 3 trong ảnh.
 
-[Step 1-1](./img/1-1.png)
+<img alt="image" src="./img/1-1.png" width="450">
 
 Cách 2: Nhấn vào bánh răng có tên `Manage` (ctrl + ,) gần `accounts` như vị trí số 1 trong ảnh >> Chọn `settings` như vị trí số 2 trong ảnh >> Chọn vào extension `code runner`.
 
