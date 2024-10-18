@@ -43,15 +43,15 @@ _Bước 1:_ Vào settings của extension
 
 Cách 1: Vào nhấn vào `Extensions` (ctrl + shift + x) như vị trí số 1 trong ảnh >> Tìm `code runner` >> Chọn `bánh răng` như vị trí số 2 trong ảnh >> Chọn `settings` như vị trí số 3 trong ảnh.
 
-<img alt="image" src="./img/1-1.png" width="450">
+<img alt="image" src="./img/1-1.png" width="800">
 
 Cách 2: Nhấn vào bánh răng có tên `Manage` (ctrl + ,) gần `accounts` như vị trí số 1 trong ảnh >> Chọn `settings` như vị trí số 2 trong ảnh >> Chọn vào extension `code runner`.
 
-[Step 1-2](./img/1-2.png)
+<img alt="image" src="./img/1-2.png" width="800">
 
 _Bước 2:_ Tìm `Code-runner: Executor Map` >> nhấn vào `Edit in setting.json`.
 
-[Step 2](./img/2.png)
+<img alt="image" src="./img/2.png" width="800">
 
 _Bước 3:_ Hiện ra kiểu dữ liệu `JSON (JavaScript Object Notation)`
 
@@ -61,8 +61,7 @@ Với mặc định thì C++ sẽ như này:
 "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 ```
 
-[Step 3](./img/3.png)
-
+<img alt="image" src="./img/3.png" width="800">
 
 Và bạn chỉ cần sửa đoạn code thành như này:
 
@@ -70,20 +69,20 @@ Và bạn chỉ cần sửa đoạn code thành như này:
 "cpp": "cd $dir && g++ *.cpp -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 ```
 
-[Step 4](./img/4.png)
+<img alt="image" src="./img/4.png" width="800">
 
 Hoặc bạn có thể để như này chỉ cần comment lại cái không cần dùng bằng phím tắt `ctrl + /`.
 
-[Step 5](./img/5.png)
+<img alt="image" src="./img/5.png" width="800">
 
 **Lần sau fix:**
 Bước 1: Nhấn vào bánh răng có tên `Manage` (ctrl + ,) gần `accounts` như vị trí số 1 trong ảnh
 
-[Step 1](./img/1-2.png)
+<img alt="image" src="./img/1-2.png" width="800">
 
 Bước 2: Chọn file `setting.json`
 
-[Step 2](./img/6.png)
+<img alt="image" src="./img/6.png" width="800">
 
 Bước 3: Hiện ra kiểu dữ liệu `JSON` thì bạn chỉ cần sửa lại như bước 3 hoặc 4 hoặc 5.
 
