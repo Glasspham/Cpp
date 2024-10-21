@@ -35,7 +35,7 @@ Khi clone về sẽ có vài folder có 2 file .cpp và 1 file .h.
 
 **Cách khắc phục**
 
-*lưu ý:* `$fileName` _(file đơn)_ và `*.cpp` _(file tách)_
+*Lưu ý:* `$fileName` _(file đơn)_ và `*.cpp` _(file tách)_
 
 **Lần đầu fix:**
 
@@ -76,6 +76,7 @@ Hoặc bạn có thể để như này chỉ cần comment lại cái không c�
 <img alt="image" src="./img/5.png" width="800">
 
 **Lần sau fix:**
+
 Bước 1: Nhấn vào bánh răng có tên `Manage` (ctrl + ,) gần `accounts` như vị trí số 1 trong ảnh
 
 <img alt="image" src="./img/1-2.png" width="800">
